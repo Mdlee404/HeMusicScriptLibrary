@@ -1,0 +1,52 @@
+name: Deploy to Cloudflare Pages
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'sources/**'
+  pull_request:
+    paths:
+      - 'sources/**'
+
+jobs:
+  validate-and-deploy:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Validate scripts
+        run: npm run validate
+        env:
+          # 如果需要代理，取消注释并设置
+          # HTTP_PROXY: ${{ secrets.CFW_PROXY_URL }}
+          # HTTPS_PROXY: ${{ secrets.CFW_PROXY_URL }}
+          pass
+
+      - name: Build index
+        run: npm run build
+
+      - name: Upload to Cloudflare Pages
+        uses: cloudflare/pages-action@v1
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          projectName: cloud-script-library
+          directory: .
+          # 明确指定要上传的文件
+          # Cloudflare Pages 会自动托管所有文件
+
+      - name: Show output URL
+        run: echo "Deployed to Cloudflare Pages"

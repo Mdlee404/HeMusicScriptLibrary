@@ -1,5 +1,17 @@
 [
   {
+    "id": "huibq",
+    "name": "huibq.js",
+    "description": "Validated by CI",
+    "author": "Unknown",
+    "version": "1.0.0",
+    "platforms": [
+      "tx"
+    ],
+    "file": "huibq.js",
+    "url": "huibq.js"
+  },
+  {
     "id": "临川",
     "name": "临川.js",
     "description": "Validated by CI",
@@ -10,6 +22,18 @@
     ],
     "file": "临川.js",
     "url": "临川.js"
+  },
+  {
+    "id": "新聚合APIV3",
+    "name": "新聚合APIV3.js",
+    "description": "Validated by CI",
+    "author": "Unknown",
+    "version": "1.0.0",
+    "platforms": [
+      "tx"
+    ],
+    "file": "新聚合APIV3.js",
+    "url": "新聚合APIV3.js"
   },
   {
     "id": "聚合",

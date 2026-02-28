@@ -1,11 +1,25 @@
 {
   "sources": [
     {
+      "id": "huibq",
+      "name": "huibq.js",
+      "size": 2.75,
+      "updateUrl": "huibq.js",
+      "updateTime": "2026-02-28 20:56:26"
+    },
+    {
       "id": "临川",
       "name": "临川.js",
       "size": 4.46,
       "updateUrl": "临川.js",
       "updateTime": "2026-01-10 18:02:28"
+    },
+    {
+      "id": "新聚合APIV3",
+      "name": "新聚合APIV3.js",
+      "size": 0.98,
+      "updateUrl": "新聚合APIV3.js",
+      "updateTime": "2026-02-28 20:59:08"
     },
     {
       "id": "聚合",

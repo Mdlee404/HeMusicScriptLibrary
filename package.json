@@ -4,8 +4,7 @@
   "description": "Cloudflare Pages 静态托管的音乐源脚本库",
   "main": "index.js",
   "scripts": {
-    "validate": "node scripts/validate.js",
-    "build": "node scripts/build-index.js"
+    "build": "npm run validate && node scripts/build-index.js"
   },
   "keywords": ["music", "lx-music", "scripts"],
   "author": "",

@@ -28,7 +28,7 @@ jobs:
         run: npm install
 
       - name: Validate and Build
-        run: npm run build
+        run: npm run validate && npm run build
 
       - name: Commit and Push
         run: |

@@ -20,21 +20,26 @@ function main() {
     const sources = validScripts.map(script => {
         const filePath = path.join(SOURCES_DIR, script.file);
         let size = 0;
+        let mtime = '';
         
         if (fs.existsSync(filePath)) {
             const stats = fs.statSync(filePath);
-            size = stats.size;
+            size = Math.round(stats.size / 1024 * 100) / 100; // KB
+            const date = new Date(stats.mtime);
+            mtime = date.getFullYear() + '-' + 
+                    String(date.getMonth() + 1).padStart(2, '0') + '-' + 
+                    String(date.getDate()).padStart(2, '0') + ' ' + 
+                    String(date.getHours()).padStart(2, '0') + ':' + 
+                    String(date.getMinutes()).padStart(2, '0') + ':' + 
+                    String(date.getSeconds()).padStart(2, '0');
         }
 
         return {
             id: script.id,
-            name: script.name,
-            description: script.description,
-            author: script.author,
-            version: script.version,
-            platforms: script.platforms || [],
-            updateUrl: script.file, // 直接指向文件
-            size: size
+            name: script.file,
+            size: size,
+            updateUrl: script.file,
+            updateTime: mtime
         };
     });
 

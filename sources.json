@@ -3,26 +3,16 @@
     {
       "id": "临川",
       "name": "临川.js",
-      "description": "Validated by CI",
-      "author": "Unknown",
-      "version": "1.0.0",
-      "platforms": [
-        "tx"
-      ],
+      "size": 4.46,
       "updateUrl": "临川.js",
-      "size": 4571
+      "updateTime": "2026-01-10 18:02:28"
     },
     {
       "id": "聚合",
       "name": "聚合.js",
-      "description": "Validated by CI",
-      "author": "Unknown",
-      "version": "1.0.0",
-      "platforms": [
-        "tx"
-      ],
+      "size": 0.98,
       "updateUrl": "聚合.js",
-      "size": 1000
+      "updateTime": "2026-01-10 17:57:22"
     }
   ]
 }

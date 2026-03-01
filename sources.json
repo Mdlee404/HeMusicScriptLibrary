@@ -1,32 +1,36 @@
 {
   "sources": [
     {
-      "id": "HUIBQ音源",
-      "name": "HUIBQ音源.js",
-      "size": 2.66,
-      "updateUrl": "HUIBQ音源.js",
-      "updateTime": "2026-03-01 01:37:34"
+      "id": "洛雪科技[独家音源] v4-会停用",
+      "name": "洛雪科技[独家音源] v4-会停用.js",
+      "size": 112.16,
+      "updateUrl": "洛雪科技[独家音源] v4-会停用.js",
+      "updateTime": "2026-03-01 11:05:55",
+      "validated": false
     },
     {
       "id": "念心音源 v1.0.0",
       "name": "念心音源 v1.0.0.js",
       "size": 26.61,
       "updateUrl": "念心音源 v1.0.0.js",
-      "updateTime": "2026-03-01 01:37:34"
+      "updateTime": "2026-03-01 11:05:55",
+      "validated": true
     },
     {
       "id": "野花音源 ",
       "name": "野花音源 .js",
       "size": 9.82,
       "updateUrl": "野花音源 .js",
-      "updateTime": "2026-03-01 01:37:34"
+      "updateTime": "2026-03-01 11:05:55",
+      "validated": true
     },
-        {
-      "id": "洛雪科技[独家音源]",
-      "name": "洛雪科技[独家音源] v4-会停用.js",
-      "size": 113,
-      "updateUrl": "洛雪科技[独家音源] v4-会停用.js",
-      "updateTime": "2026-03-01 01:37:34"
+    {
+      "id": "HUIBQ音源",
+      "name": "HUIBQ音源.js",
+      "size": 2.66,
+      "updateUrl": "HUIBQ音源.js",
+      "updateTime": "2026-03-01 11:05:55",
+      "validated": true
     }
   ]
 }

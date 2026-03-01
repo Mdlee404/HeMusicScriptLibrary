@@ -1,38 +1,38 @@
 [
   {
-    "id": "临川",
-    "name": "临川.js",
+    "id": "HUIBQ音源",
+    "name": "HUIBQ音源.js",
     "description": "Validated by CI",
     "author": "Unknown",
     "version": "1.0.0",
     "platforms": [
       "tx"
     ],
-    "file": "临川.js",
-    "url": "临川.js"
+    "file": "HUIBQ音源.js",
+    "url": "HUIBQ音源.js"
   },
   {
-    "id": "新聚合APIV3",
-    "name": "新聚合APIV3.js",
+    "id": "念心音源 v1.0.0",
+    "name": "念心音源 v1.0.0.js",
     "description": "Validated by CI",
     "author": "Unknown",
     "version": "1.0.0",
     "platforms": [
       "tx"
     ],
-    "file": "新聚合APIV3.js",
-    "url": "新聚合APIV3.js"
+    "file": "念心音源 v1.0.0.js",
+    "url": "念心音源 v1.0.0.js"
   },
   {
-    "id": "聚合",
-    "name": "聚合.js",
+    "id": "野花音源 ",
+    "name": "野花音源 .js",
     "description": "Validated by CI",
     "author": "Unknown",
     "version": "1.0.0",
     "platforms": [
       "tx"
     ],
-    "file": "聚合.js",
-    "url": "聚合.js"
+    "file": "野花音源 .js",
+    "url": "野花音源 .js"
   }
 ]

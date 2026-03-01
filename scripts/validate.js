@@ -3,6 +3,12 @@ const path = require('path');
 const vm = require('vm');
 const needle = require('needle');
 
+
+process.on('unhandledRejection', (reason) => {
+    const message = reason && reason.message ? reason.message : String(reason);
+    console.log(`[UnhandledRejection] ${message}`);
+});
+
 const SOURCES_DIR = path.join(__dirname, '..', 'sources');
 const TEST_SONG_ID = '001X0PDf0W4lBq'; // QQ音乐测试ID
 const TIMEOUT_MS = 5000;

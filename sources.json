@@ -5,7 +5,7 @@
       "name": "洛雪科技[独家音源] v4-会停用.js",
       "size": 112.16,
       "updateUrl": "洛雪科技[独家音源] v4-会停用.js",
-      "updateTime": "2026-04-05 13:25:16",
+      "updateTime": "2026-04-19 13:19:25",
       "validated": false
     },
     {
@@ -13,7 +13,23 @@
       "name": "念心音源 v1.0.0.js",
       "size": 26.61,
       "updateUrl": "念心音源 v1.0.0.js",
-      "updateTime": "2026-04-05 13:25:16",
+      "updateTime": "2026-04-19 13:19:25",
+      "validated": true
+    },
+    {
+      "id": "念心音源-V1.0.1",
+      "name": "念心音源-V1.0.1.js",
+      "size": 26.48,
+      "updateUrl": "念心音源-V1.0.1.js",
+      "updateTime": "2026-04-19 13:19:25",
+      "validated": true
+    },
+    {
+      "id": "全豆要-聚合音源-V4.1",
+      "name": "全豆要-聚合音源-V4.1.js",
+      "size": 31.63,
+      "updateUrl": "全豆要-聚合音源-V4.1.js",
+      "updateTime": "2026-04-19 13:19:25",
       "validated": true
     },
     {
@@ -21,7 +37,15 @@
       "name": "溯音音源 v1.js",
       "size": 17.24,
       "updateUrl": "溯音音源 v1.js",
-      "updateTime": "2026-04-05 13:25:16",
+      "updateTime": "2026-04-19 13:19:25",
+      "validated": true
+    },
+    {
+      "id": "统一音乐源",
+      "name": "统一音乐源.js",
+      "size": 9.03,
+      "updateUrl": "统一音乐源.js",
+      "updateTime": "2026-04-19 13:19:25",
       "validated": true
     },
     {
@@ -29,7 +53,7 @@
       "name": "星海音乐源 v2.2.8.js",
       "size": 13.48,
       "updateUrl": "星海音乐源 v2.2.8.js",
-      "updateTime": "2026-04-05 13:25:16",
+      "updateTime": "2026-04-19 13:19:25",
       "validated": true
     },
     {
@@ -37,7 +61,7 @@
       "name": "野花音源 .js",
       "size": 9.82,
       "updateUrl": "野花音源 .js",
-      "updateTime": "2026-04-05 13:25:16",
+      "updateTime": "2026-04-19 13:19:25",
       "validated": true
     },
     {
@@ -45,7 +69,15 @@
       "name": "忆音音源 v1.js",
       "size": 1.46,
       "updateUrl": "忆音音源 v1.js",
-      "updateTime": "2026-04-05 13:25:16",
+      "updateTime": "2026-04-19 13:19:25",
+      "validated": true
+    },
+    {
+      "id": "长青SVIP音源-V1.1.1",
+      "name": "长青SVIP音源-V1.1.1.js",
+      "size": 30.02,
+      "updateUrl": "长青SVIP音源-V1.1.1.js",
+      "updateTime": "2026-04-19 13:19:25",
       "validated": true
     },
     {
@@ -53,7 +85,7 @@
       "name": "长青SVIP音源.js",
       "size": 30.02,
       "updateUrl": "长青SVIP音源.js",
-      "updateTime": "2026-04-05 13:25:16",
+      "updateTime": "2026-04-19 13:19:25",
       "validated": true
     },
     {
@@ -61,7 +93,7 @@
       "name": "fish-music音源.js",
       "size": 9.86,
       "updateUrl": "fish-music音源.js",
-      "updateTime": "2026-04-05 13:25:16",
+      "updateTime": "2026-04-19 13:19:25",
       "validated": true
     },
     {
@@ -69,7 +101,7 @@
       "name": "HUIBQ音源.js",
       "size": 2.66,
       "updateUrl": "HUIBQ音源.js",
-      "updateTime": "2026-04-05 13:25:16",
+      "updateTime": "2026-04-19 13:19:25",
       "validated": true
     }
   ]
